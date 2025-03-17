@@ -18,9 +18,10 @@ Para ejecutar escribe en la terminal CMD run.bat
 Para detener escribe en la terminal CMD stop.bat
 
 
-# Run Server: Colocar en la terminal CMD en la carpeta base gestion_cuentas_bancarias
-go build -o gestioncuentas.exe ./cmd/api
-set ENV=development && start /B gestioncuentas.exe
+# Run Server:
+Colocar en la terminal CMD en la carpeta base gestion_cuentas_bancarias
+    go build -o gestioncuentas.exe ./cmd/api
+    set ENV=development && start /B gestioncuentas.exe
 
 # Stop Server: 
     taskkill /IM gestioncuentas.exe /F
